@@ -7,6 +7,11 @@
 
 ver=15072021
 
+## CB-Dock path (install from http://clab.labshare.cn/cb-dock/php/manual.php#download)
+cbdock=/path/to/perl_file/CB-Dock/prog/AutoBlindDock.pl
+
+#####
+
 ## How many independent docking cycles
 cycles=$2
 
@@ -16,8 +21,6 @@ ncavs=$3
 nT=$4
 nL=$5
 
-## CB-Dock path (install from http://clab.labshare.cn/cb-dock/php/manual.php#download)
-cbdock=/path/to/perl_file/CB-Dock/prog/AutoBlindDock.pl
 ## Docking results will be organized here during calculation and used for analysis
 DDir="docking"
 RDir="results"
